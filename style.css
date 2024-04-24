@@ -1,0 +1,249 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+#main{
+    width: 100%;
+  
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+}
+#navbar{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#navbar h4{
+    
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#text{
+    margin-top: 40px;
+}
+#text h1{
+    font-size: 9vw;
+    text-transform: uppercase;
+    margin-left: 30px;
+    line-height:1;
+    opacity: .6;
+}
+#designer{
+    width: fit-content;
+    margin-left: 100px;
+    
+
+}
+#designer h4{
+    font-size: vw;
+    text-align: right;
+    text-transform: uppercase;
+    
+}
+#chotiheading{
+    margin-top: 80px;
+    width: 100%;
+    text-align: right;
+    padding: 30px;
+    text-transform: uppercase;
+
+}
+#herofooter{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-bottom: 0px;
+
+}
+#herofooter a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.circle{
+   
+    display: flex;
+    align-items: center;
+    gap:3px;
+    
+}
+#circle1{
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#circle2{
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#second{
+    width: 87%;
+    height: 100vh;
+    margin-top: 170px;
+    margin-left: 30px;
+}
+.lines{
+    border-top: .7px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px  30px;
+
+}
+.lines h1{
+    text-transform: uppercase;
+    font-size: 6vw;
+    opacity: .8;
+    
+}
+#lastt{
+    border-bottom: .7px solid white;
+}
+#third{
+    width: 100%;
+    height: 100vh;
+    
+
+}
+#aboutme{
+    width: 100%;
+    margin-top: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 160px;
+    gap: 50px;
+    
+    
+}
+#aboutmeimg{
+    border-radius: 50%;
+    background-image: url('./WhatsApp\ Image\ 2024-04-24\ at\ 12.28.32_18bf2124.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 230px;
+    height: 230px;
+    left: 200px;
+}
+#aboutmetext{
+    width: 33%;
+    line-height: 1.5;
+    
+}
+#aboutmetext h3{
+    text-transform: uppercase;
+    opacity: .7;
+    font-size: 14px;
+    font-weight: 400;
+}
+#aboutmetext p{
+    font-size: 17px;
+}
+#letstalk{
+    width: 100px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.7s;
+    
+    
+}
+#letstalk:hover {
+    
+    background-color: white;
+}
+
+#letstalk a {
+    color: white;
+    text-decoration: none;
+}
+
+#letstalk:hover a {
+    color: black;
+}
+#youtube{
+    padding: 50px;
+}
+#youtube h3{
+    opacity: 0.7;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px 0px;
+}
+#youtube a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+#fourth{
+    margin-top: 150px;
+   
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+#leftfourth{
+   
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    gap: 25px;
+    font-weight: 400;
+    font-size: 14px;
+}
+#rightfourth{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+#rightfourth a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#minicircle{
+    width: 15px;
+    height: 15px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
